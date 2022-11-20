@@ -1,0 +1,17 @@
+/* Imports */
+
+/* Navigation */
+nav {
+    display: flex;
+    flex-direction: column;
+}
+.nav-items {
+    list-style-type: none;
+}
+.nav-items li {
+    display: inline;
+    padding-right: 1em;
+}
+.logo {
+    width: 12em;
+}
