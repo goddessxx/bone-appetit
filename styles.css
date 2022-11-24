@@ -19,9 +19,7 @@ body {
   width: 28em;
 }
 @media only screen and (min-device-width: 576px) {
-  body {
-    background-repeat: no-repeat;
-    
-    
-  }
+ img{
+  
+ }
 }
