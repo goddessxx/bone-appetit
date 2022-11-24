@@ -1,5 +1,5 @@
 /* Imports */
-
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap");
 /* Navigation */
 
 .logo {
@@ -8,18 +8,17 @@
 }
 /* Main Content */
 body {
-  background-color: rgba(101,158,188,255);
+  background: linear-gradient(to left, #ff7e5f, #feb47b);
+  margin: 0;
 }
 .main-content {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-.dog {
-  width: 28em;
+.main-content h1 {
+  font-family: 'Rubik Marker Hatch', cursive;
 }
-@media only screen and (min-device-width: 576px) {
- img{
-  
- }
+.dog {
+  width: 100%;
 }
