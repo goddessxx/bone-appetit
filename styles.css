@@ -20,7 +20,9 @@ nav {
 body {
   background-color: rgba(101,158,188,255);
 }
-
+img{
+  width: 100%;
+}
 @media only screen and (min-device-width: 576px) {
  img{
   
