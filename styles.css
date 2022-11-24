@@ -16,3 +16,8 @@ nav {
   width: 12em;
 }
 /* Main Content */
+body {
+  background-image: url(images/karsten-winegeart-pQVecS8pBNY-unsplash.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
