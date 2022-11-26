@@ -10,15 +10,9 @@
 body {
   background: linear-gradient(to left, #ff7e5f, #feb47b);
   margin: 0;
-}
-.main-content {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-}
-.main-content h1 {
   font-family: 'Rubik Marker Hatch', cursive;
+  color: #A27B5C;
 }
-.dog {
-  width: 100%;
+img{
+  width: 50%;
 }
