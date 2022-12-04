@@ -5,9 +5,7 @@ body {
   font-family: "Rubik Marker Hatch", cursive;
   color: #A27B5C;
 }
-img {
-  width: 50%;
-}
+/* Menu Section */
 .menu {
   display: flex;
   justify-content: center;
