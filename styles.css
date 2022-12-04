@@ -1,20 +1,54 @@
+
 /* Imports */
 
 /* Navigation */
 
 .logo {
-  width: 12em;
-  height: 12em;
+  width: 20em;
+  height: 20em;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
 }
 /* Main Content */
 body {
   background-color: rgba(101,158,188,255);
 }
-img{
-  width: 100%;
-}
-@media only screen and (min-device-width: 576px) {
- img{
+.main-content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  grid-row: auto;
   
- }
+
+}
+
+.menu-item{
+  flex: 50%;
+  border-style: solid;
+  border-radius: 20px;
+  width: 300px;
+  height: 300px;
+  
+}
+
+
+
+/* links & nav*/
+.nav a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover, a:active{
+  background-color:aquamarine;
+  color: black;
 }
