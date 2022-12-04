@@ -4,6 +4,29 @@ body {
   background: linear-gradient(to left, #ff7e5f, #feb47b);
   font-family: "Rubik Marker Hatch", cursive;
   color: #a27b5c;
+  margin: 0;
+}
+/* Nav Section */
+nav {
+  display: flex;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+  margin-right: 1em;
+  
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.logo {
+  width: 10em;
+  height: 15em;
+  position: relative;
+  bottom: 5.7em;
 }
 /* Menu Section */
 .menu {
@@ -40,11 +63,6 @@ figcaption {
 
 /* index html*/
 /*nav*/
-.logo {
-  width: 5em;
-  height: 5em;
-}
-
 /* Header/Blog Title */
 .header {
   text-align: center;
@@ -123,37 +141,6 @@ figcaption {
   position: relative;
 }
 
-/* Position the navbar container inside the image */
-.container {
-  position: absolute;
-  margin: 20px;
-  width: auto;
-}
-
-/* The navbar */
-.topnav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  overflow: hidden;
-  translate: -7em -15em;
-}
-
-/* Navbar links */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
 img {
   height: 500px;
   width: 100%;
