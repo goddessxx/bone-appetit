@@ -1,0 +1,24 @@
+//Nav
+@media (min-width: 1060px) {
+  nav .nav-items {
+    display: flex;
+    position: static;
+    margin: 0;
+    background-color: transparent;
+  }
+  nav .fa-solid {
+    display: none;
+  }
+  .nav-links li {
+    display: inline;
+    padding-right: 0.7em;
+  }
+  .socials {
+    margin-right: 0.6em;
+
+    li {
+      padding-right: 0.5em;
+    }
+  }
+}
+// 1189px
