@@ -1,0 +1,8 @@
+@use "../base/variables" as v;
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap");
+
+body {
+  background: linear-gradient(to left, #ff7e5f, #feb47b);
+  font-family: "Rubik Marker Hatch", cursive;
+  color: v.$fontColor;
+}
