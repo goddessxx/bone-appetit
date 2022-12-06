@@ -2,6 +2,7 @@
   display: grid;
   margin-top: 2em;
   grid-template-areas:
-    "form-content form-image";
+    "form-content"
+    "form-image";
   justify-content: space-evenly;
 }

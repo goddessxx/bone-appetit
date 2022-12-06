@@ -1,7 +1,4 @@
 @use "../base/variables" as v;
-.form-content {
-  margin-left: 5em;
-}
 form {
   display: flex;
   border-radius: 5%;
@@ -15,11 +12,15 @@ form {
     margin-bottom: 2em;
     border: 0.1em solid v.$navColor;
     background-color: transparent;
+
+    &:focus {
+      color: transparent;
+    }
   }
 }
 .form-image {
   img {
-    width: 50em;
+    width: 25em;
     border-radius: 4%;
     box-shadow: 1em 1em 35em #e2c275;
   }

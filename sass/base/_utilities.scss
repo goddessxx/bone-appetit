@@ -6,3 +6,12 @@ body {
   font-family: "Rubik Marker Hatch", cursive;
   color: v.$fontColor;
 }
+button {
+  font-family: "Rubik Marker Hatch", cursive;
+  color: v.$fontColor;
+
+  &:hover {
+    background-color: #ffdca9;
+    color: #faab78;
+  }
+}

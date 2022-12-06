@@ -21,4 +21,33 @@
     }
   }
 }
+@media screen and (max-width: 768px) {
+  .content {
+    flex-wrap: wrap;
+    flex: 0 50%;
+    text-align: center;
+    padding: 0%;
+  }
+  .leftcolumn {
+    align-items: center;
+  }
+}
 // 1189px
+@media (min-width: 1189px) {
+  .main-form {
+    grid-template-areas: "form-content form-image";
+  }
+  .form-image .dog-img {
+    width: 50em;
+  }
+}
+
+// About page
+@media screen and (min-width: 1200px) {
+  .column {
+    float: left;
+    width: 32%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+}
