@@ -1,8 +1,6 @@
-.aboutnav{
-
-  height: 0vh;
-}
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -13,8 +11,17 @@
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
+  position: relative;
+  img {
+    width: 15em;
+    border-radius: 10%;
+    float: left;
+    padding-right: 0.8em;
+  }
 }
-
+.card {
+  padding: 2em;
+}
 .about-section {
   padding: 50px;
   text-align: center;
@@ -22,11 +29,8 @@
   color: white;
 }
 
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
+.container::after,
+.row::after {
   content: "";
   clear: both;
   display: table;

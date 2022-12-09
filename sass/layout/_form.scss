@@ -1,10 +1,13 @@
 @use "../base/variables" as v;
+
 form {
   display: flex;
   border-radius: 5%;
   flex-direction: column;
+  margin-left: 5em;
   align-items: center;
   margin-top: 1em;
+
   input {
     width: 20em;
     height: 3em;
@@ -18,10 +21,22 @@ form {
     }
   }
 }
+.form-header {
+  h1 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+}
 .form-image {
+  margin: 0;
   img {
     width: 25em;
+    margin: auto;
     border-radius: 4%;
     box-shadow: 1em 1em 35em #e2c275;
+    mask-image: url("../../images/form-images/blob.svg");
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: bottom;
   }
 }

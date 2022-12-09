@@ -20,8 +20,18 @@
       padding-right: 0.5em;
     }
   }
+  .main-form {
+    grid-template-areas: "form-content form-image";
+  }
+  .form-image .dog-img {
+    width: 40em;
+  }
+  .landing-body .landing-header {
+    margin-top: 6em;
+    grid-template-areas: "greeting-card landing-image";
+  }
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .content {
     flex-wrap: wrap;
     flex: 0 50%;
@@ -34,20 +44,23 @@
 }
 // 1189px
 @media (min-width: 1189px) {
+  // Landing Page
+  .landing-header {
+    grid-template-areas: "greeting-card landing-image";
+  }
   .main-form {
     grid-template-areas: "form-content form-image";
   }
   .form-image .dog-img {
-    width: 50em;
+    width: 55em;
   }
 }
 
 // About page
-@media screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
   .column {
     float: left;
     width: 32%;
     margin-bottom: 16px;
-    padding: 0 8px;
   }
 }
